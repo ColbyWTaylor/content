@@ -10,13 +10,13 @@ tags: ["fale"]
 ## What is Object Oriented Programming
 ***
 
-Everything we have coded up until now revolves around functions (i.e. blocks of statements which manipulate data).  This is called the ***procedure-oriented*** way of programming.  There is another way of organizing your code, which is to combine data and functionality, and wrap it inside something called an  object.  This way of coding its called the ***object-oriented*** way of programming, and is ideal when writing large applications.
+Everything we have coded up until now revolves around functions (i.e. blocks of statements which manipulate data).  This is called the ***procedure-oriented*** way of programming.  There is another way of organizing your code, which is to combine data and functionality, and wrap it inside something called an  object.  This way of coding is called the ***object-oriented*** way of programming, and is ideal when writing large applications.
 
 ### Everything we code is now wrapped inside objects…
 
 The universe is made of different objects like: the sun, earth, moon, chairs and crazy people.  Similarly, we can imagine that our car is made up of different objects, like: steering wheel, air conditioner, engine etc.  In that same way, there are object oriented programming concepts which assume that everything is an object, and implements a software for different objects.
 
-### Why use OO Programing?
+### Why use Object Oriented Programming (OOP)?
 ***
 
 There are two kinds of people in this world:
@@ -133,8 +133,6 @@ Right after the properties, you have to declare the functions.
 ## The Class Constructor
 ***
 
-
-The Class Constructor
 The "class constructor" is the first function that gets called in the entire class.  It gets called as soon as the object is created.  It is very good practice to assign initial values to the class properties inside its constructor method.
 
 We call the constructor one of the "magic functions."  They are "magical" because you don’t have to call those functions yourself – they are magically called by the server depending on they purpose that they have (in the case of the constructor, remember the purpose is about initialization).
@@ -229,7 +227,7 @@ In [object-oriented programming](https://searchmicroservices.techtarget.com/defi
 
 **For example:**
 
-"Car" is a classification of "Four-Wheeler."  Here, "Car" acquires the properties of a "Four-Wheeler."  Other classifications could be a Jeep, Tempo, van etc. "Four-Wheeler" defines a class of vehicles that has four wheels, a specific range of engine power, load carrying capacity etc.  "Car" (termed as a sub-class) acquires these properties from "Four-Wheeler" (termed as a super-class), and has SOME specific properties that are different from other classifications of "Four Wheeler," such as luxury, comfort, shape, size, usage, etc.
+"Car" is a classification of "Four-Wheeler."  Here, "Car" acquires the properties of a "Four-Wheeler."  Other classifications could be a Jeep, Tempo, van etc. "Four-Wheeler" defines a class of vehicles that has four wheels, a specific range of engine power, load carrying capacity etc.  "Car" (termed as a subclass) acquires these properties from "Four-Wheeler" (termed as a super-class), and has SOME specific properties that are different from other classifications of "Four Wheeler," such as luxury, comfort, shape, size, usage, etc.
 
 "Car" can have further classification such as "Open Car," "Small Car," "Large Car," etc, which will acquire the properties from BOTH "Four-Wheeler" AND "Car" – but will still have some specific properties.  This way the level of hierarchy can be extended to any level.
 ![what is object oriented programming concepts](https://ucarecdn.com/51a4c486-2a08-4471-b2b5-80e32ce41abc/JS.png)
@@ -246,23 +244,3 @@ In [object-oriented programming](https://searchmicroservices.techtarget.com/defi
 <iframe height="400px" width="100%" src="https://repl.it/@4GeeksAcademy/Python-Class-Inheritance?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 <div align="right"><small><a href="https://repl.it/@4GeeksAcademy/Python-Class-Inheritance?lite=true">Click here to open demo in a new window</a></small></div>
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-  
-
