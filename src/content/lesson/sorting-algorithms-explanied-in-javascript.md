@@ -1,5 +1,5 @@
 ---
-title: "Using javascript to sort a list"
+title: "Using JavaScript to Sort a List"
 subtitle: "Nobody manually sorts lists anymore, but it is still a fantastic way to master your algorithmic skills"
 cover: "https://ucarecdn.com/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e/"
 status: "draft"
@@ -14,10 +14,10 @@ Sorting is an expensive task for the computer CPU, it depends on the amount of d
 A: Sorting algorithms is one of the first lessons in Computer Science because it helps you train your mind to think like a computer. It is a great practice to fully understand the concepts of algorithms and code.
 
 ## Q: What types of sorting algorithms are there?
-A: There is more than we can count, the top 10 in popularity are:
+A: There are more than we can count, the top 10 in popularity are:
 
 ### Bubble Sorting
-It's the simplest of the sorting algorithms. It repeatedly swap adjacent elements to arrange them ascendingly, the algorithm has a "`wall`" that represents the last position to be compared, the wall keeps moving from left to right, shrinking the comparison size until the entire list is sorted.
+It's the simplest of the sorting algorithms. It repeatedly swaps adjacent elements to arrange them ascendingly, the algorithm has a "`wall`" that represents the last position to be compared, the wall keeps moving from left to right, shrinking the comparison size until the entire list is sorted.
 
 ![Bubble Sort Explained](https://ucarecdn.com/2fef4d85-686b-4bf0-a505-45d3de178fd5/)
 
@@ -43,14 +43,14 @@ const bubbleSort = (arr) => {
 ```
 
 [[info]]
-| :tv: In this link, you will find [a relly good 2 min video explanation](https://www.youtube.com/watch?v=xli_FI7CuzA).
+| :tv: In this link, you will find [a really good 2 min video explanation](https://www.youtube.com/watch?v=xli_FI7CuzA).
 
 [[info]]
-| :tv: Here is a really [weird group of bulgarian's](https://www.youtube.com/watch?v=lyZQPjUT5B4&t=1s) dancing the bubble-sort algorithm.
+| :tv: Here is a really [weird group of bulgarian's](https://www.youtube.com/watch?v=lyZQPjUT5B4) dancing the bubble-sort algorithm.
 
 ### Selection Sorting
 
-`Selection` also has a wall, but in this case, it marks the beginning of the loop, the algorithm then looks for the smallest item and swaps it with the initial one, then it moves the wall one position to the right to avoid looking again that same item.
+`Selection` also has a wall, but in this case, it marks the beginning of the loop- the algorithm then looks for the smallest item and swaps it with the initial one, then it moves the wall one position to the right to avoid looking again that same item.
 
 ![Selection Sort Explained](https://ucarecdn.com/ddb1ff5a-621c-4945-9164-20c1a7f5d388/)
 
@@ -72,11 +72,11 @@ const selectSort = (arr) => {
 };
 ```
 [[info]]
-| :tv: In this link, you will find [a relly good 3 min video explanation](https://www.youtube.com/watch?v=g-PGLbMth_g) about the selection sort algorithm.
+| :tv: In this link, you will find [a really good 3 min video explanation](https://www.youtube.com/watch?v=g-PGLbMth_g) about the selection sort algorithm.
 
 ### Cocktail Shaker Sorting
 
-Cocktail Shaker works in both fronts at the same time: It looks for the biggest value scanning from left to right and it also looks for the smallest one when its coming back from right to left. It has 2 walls  (both for each side of the list), and both walls keep shrinking until they hit each other, when that happens the array is fully sorted.
+Cocktail Shaker works in both fronts at the same time: It looks for the biggest value scanning from left to right and it also looks for the smallest one when it is coming back from right to left. It has 2 walls  (both for each side of the list), and both walls keep shrinking until they hit each other, when that happens the array is fully sorted.
 
 ![Selection Sort Explained](https://ucarecdn.com/6d44c6a9-7f32-4b0e-86d7-1a210c3a5f4a/)
 In javascript:
@@ -103,7 +103,7 @@ const shakerSort = (arr) => {
 }
 ```
 [[info]]
-| :tv: In this link, you will find [a relly good 3 min video explanation](https://www.youtube.com/watch?v=g-PGLbMth_g) about the selection sort algorithm.
+| :tv: In this link, you will find [a really good 3 min video explanation](https://www.youtube.com/watch?v=g-PGLbMth_g) about the selection sort algorithm.
 
 ### Insertion Sort
 Insertion sort involves going through a pile, taking one item, comparing it to the first, swapping places if one item is larger than another and continuing this process until the minimum item is in the correct location.
@@ -126,7 +126,7 @@ const insertionSort = (arr) => {
 ```
 
 [[info]]
-| :tv:** In this link, you will find [a relly good 3 min video explanation](https://www.youtube.com/watch?v=JU767SDMDvA) about the insertion sort algorithm.
+| :tv:** In this link, you will find [a really good 3 min video explanation](https://www.youtube.com/watch?v=JU767SDMDvA) about the insertion sort algorithm.
 
 ### Merge Sort
 
@@ -135,7 +135,7 @@ Merge sort is a more difficult algorithm because it uses [recursivity](https://w
 ![Merge sort](https://ucarecdn.com/e8781e98-0f8c-4035-8017-33ca217eb39c/)
 
 [[info]]
-| :tv: In this link, you will find [a relly good 4 min video explanation](https://www.youtube.com/watch?v=JU767SDMDvA) about the merge sort algorithm.
+| :tv: In this link, you will find [a really good 4 min video explanation](https://www.youtube.com/watch?v=JU767SDMDvA) about the merge sort algorithm.
 
 ### Quick Sort
 
@@ -158,7 +158,7 @@ The  `quickSort`  function invokes a recursive function,  `quickSortHelper`.  `q
 ![Quicksort Algorithm](https://ucarecdn.com/c60c4713-aa60-4fbc-9d97-f893b5947e7f/)
 
 [[info]]
-| :tv: In this link, you will find [a relly good 4 min video explanation](https://www.youtube.com/watch?v=Hoixgm4-P4M) about the Quick Sort algorithm.
+| :tv: In this link, you will find [a really good 4 min video explanation](https://www.youtube.com/watch?v=Hoixgm4-P4M) about the Quick Sort algorithm.
 
 ## Aditional Resources
 
