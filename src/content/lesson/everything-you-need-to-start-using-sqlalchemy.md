@@ -11,27 +11,27 @@ status: "published"
 tags: ["sql alchemy", "python"]
 ---
 
-## What is SQL Alchemy
+## What is SQLAlchemy?
 
-Is an ORM: a library that developers use to create databases and manipulate their data without the need of knowing/using SQL.
+SQL Alchemy is an ORM (Object-relational mapping): a library that developers use to create databases and manipulate their data without the need of knowing/using SQL.
 
-There are other alternatives to it like SQLAlchemy like Peewee, and other languages have their own ORM's like PHP Eloquent or Java Hibernate.
+There are other alternatives to SQLAlchemy like  like Peewee, and other languages have their own ORM's like PHP Eloquent or Java Hibernate.
 
 ## Why using it?
 
-There is a lot of debate around this, ORM's gain popularity because dealing with SQL language directly requiers a lot of effort and on the mayority of the cases.
+There is a lot of debate around this- ORM's gain popularity because dealing with SQL language directly requiers a lot of effort in the majority of cases.
 
 Basically with ORM you won't have to type SQL again (95% of the time) and you will be able to work with objects.
 
 ### For example:
 
-To insert an user with SQL you have to type:
+To insert a user with SQL you have to type:
 
 ```sql
 INSERT INTO user (name, last_name) VALUES ('Juan', 'McDonals');
 ```
 
-With an ORM your code keeps beign familiar code like this:
+With an ORM your code remains familiar like this:
 
 ```py
 user = User()
@@ -42,7 +42,7 @@ db.session.commit()
 ```
 You can just say: `db.session.commit()` and all the things you have done in your code will be translated into SQL language code.
 
-## Lets review the most typical database operation
+## Let's review the most typical database operation
 
 ## Creating our database
 
@@ -79,7 +79,7 @@ db.session.commit()
 ### SELECT: Fetching or retrieving records
 
 There are 3 ways to retrieve data from a database:
-    1. Fetch all record from a particular Table/Model using `MyModel.query.all()`
+    1. Fetch all records from a particular Table/Model using `MyModel.query.all()`
     2. Fetch one single record based on its primary key using `MyModel.query.get(id)`
     3. Fetch a group of records based on a query `Person.query.filter_by(arg1=value, arg2=value, ...)`
 
